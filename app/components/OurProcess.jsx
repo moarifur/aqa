@@ -3,7 +3,7 @@ import React from 'react';
 const OurProcess = ({ info, background = [] }) => {
     return (
         <div className="mt-32">
-            <div className="h-screen w-screen relative overflow-hidden flex items-center" data-aos="fade-up">
+            <div className="h-screen w-full relative overflow-hidden flex items-center" data-aos="fade-up">
 
                 {/* Image Container: Stretched from top to bottom */}
                 <div className="absolute top-0 left-0 h-screen w-full flex">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Product = ({ info, products = [] }) => {
     return (
-        <div className="mt-32 px-10">
+        <div className="my-32 px-10">
             <div className="h-screen w-full grid grid-cols-1 md:grid-cols-5 gap-6" data-aos="fade-up">
                 {/* First Column: Product Info */}
                 <div className="col-span-1 flex flex-col justify-center items-center bg-white text-black p-8">
