@@ -22,13 +22,17 @@ const navLinks = [
     },
     {
         title: 'Why AQA',
-        link: '/whyus'
+        link: '/about'
     },
     {
         title: 'Contact Us',
         link: '/contact'
     },
 ]
+
+// const nav_info = {
+//     imgURL: "/images/logo.png"
+// }
 
 const Navbar = () => {
 
@@ -50,6 +54,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-x-1">
                         <a href="/">
                             <img src="/images/logo.png" alt="" width={50} height={50}/>
+                            {/*<img src={imgURL} alt="" width={50} height={50}/>*/}
                         </a>
 
                         {/* Medium Device Menu */}
