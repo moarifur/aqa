@@ -1,5 +1,3 @@
-import React from 'react';
-
 const OurProcess = ({ info, background = [] }) => {
     return (
         <div className="mt-32">
@@ -10,7 +8,7 @@ const OurProcess = ({ info, background = [] }) => {
                     {background?.map((item, index) => (
                         <img
                             key={index}
-                            src={item.imgURL}
+                            src={item.imgURL} // Absolute path from the data
                             alt=""
                             className="h-screen w-1/5 object-cover"
                         />
