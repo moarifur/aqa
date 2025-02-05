@@ -26,14 +26,14 @@ export const productData = [
     { id: 17, imgURL: "/images/kn03.jpg", title: "Oversized Sweater", description: "Trendy and relaxed", category: "Knitwear" },
 
     // Denim
-    { id: 18, imgURL: "/images/d01.jpg", title: "Denim Jeans", description: "Classic blue jeans", category: "Denim" },
-    { id: 19, imgURL: "/images/d02.jpg", title: "Denim Jacket", description: "Vintage wash design", category: "Denim" },
-    { id: 20, imgURL: "/images/d03.jpg", title: "Ripped Jeans", description: "Casual and trendy", category: "Denim" },
-    { id: 21, imgURL: "/images/d04.jpg", title: "Denim Shorts", description: "Lightweight and breathable", category: "Denim" },
-    { id: 22, imgURL: "/images/d05.jpg", title: "Denim Skirt", description: "Chic and stylish", category: "Denim" },
-    { id: 23, imgURL: "/images/d06.jpg", title: "Denim Skirt", description: "Chic and stylish", category: "Denim" },
-    { id: 24, imgURL: "/images/d07.jpg", title: "Denim Skirt", description: "Chic and stylish", category: "Denim" },
-    { id: 25, imgURL: "/images/d08.jpg", title: "Denim Skirt", description: "Chic and stylish", category: "Denim" },
+    { id: 18, imgURL: "/images/d01.jpg", title: "Denim Jeans", description: "Classic blue jeans with a comfortable fit", category: "Denim" },
+    { id: 19, imgURL: "/images/d02.jpg", title: "Denim Jacket", description: "Vintage wash design with a rugged look", category: "Denim" },
+    { id: 20, imgURL: "/images/d03.jpg", title: "Ripped Jeans", description: "Trendy distressed jeans for a casual vibe", category: "Denim" },
+    { id: 21, imgURL: "/images/d04.jpg", title: "Denim Shorts", description: "Lightweight and breathable summer wear", category: "Denim" },
+    { id: 22, imgURL: "/images/d05.jpg", title: "A-Line Denim Skirt", description: "Elegant A-line design with a modern touch", category: "Denim" },
+    { id: 23, imgURL: "/images/d06.jpg", title: "High-Waisted Denim Skirt", description: "Chic high-rise style with a flattering fit", category: "Denim" },
+    { id: 24, imgURL: "/images/d07.jpg", title: "Button-Front Denim Skirt", description: "Stylish buttoned front for a trendy look", category: "Denim" },
+    { id: 25, imgURL: "/images/d08.jpg", title: "Distressed Denim Skirt", description: "Edgy distressed details for a bold style", category: "Denim" },
 
     // Activewear
     { id: 26, imgURL: "/images/a01.jpg", title: "Sports Leggings", description: "Stretchy and breathable", category: "Activewear" },
@@ -42,13 +42,13 @@ export const productData = [
     { id: 29, imgURL: "/images/a04.jpg", title: "Hoodie", description: "Warm post-workout layer", category: "Activewear" },
 
     // Outerwear
-    { id: 30, imgURL: "/images/o01.jpg", title: "Winter Coat", description: "Thick and insulated", category: "Outerwear" },
-    { id: 31, imgURL: "/images/o02.jpg", title: "Puffer Jacket", description: "Perfect for extreme cold", category: "Outerwear" },
-    { id: 32, imgURL: "/images/o03.jpg", title: "Trench Coat", description: "Elegant and stylish", category: "Outerwear" },
-    { id: 33, imgURL: "/images/o04.jpg", title: "Windbreaker", description: "Lightweight weather protection", category: "Outerwear" },
-    { id: 34, imgURL: "/images/o05.jpg", title: "Leather Jacket", description: "Timeless classic", category: "Outerwear" },
-    { id: 35, imgURL: "/images/o06.jpg", title: "Leather Jacket", description: "Timeless classic", category: "Outerwear" },
-    { id: 36, imgURL: "/images/o07.jpg", title: "Leather Jacket", description: "Timeless classic", category: "Outerwear" },
+    { id: 30, imgURL: "/images/o01.jpg", title: "Winter Coat", description: "Thick and insulated for ultimate warmth", category: "Outerwear" },
+    { id: 31, imgURL: "/images/o01.jpg", title: "Puffer Jacket", description: "Lightweight yet warm for extreme cold", category: "Outerwear" },
+    { id: 32, imgURL: "/images/o01.jpg", title: "Trench Coat", description: "Elegant long coat with a tailored fit", category: "Outerwear" },
+    { id: 33, imgURL: "/images/o01.jpg", title: "Windbreaker", description: "Water-resistant and lightweight for active wear", category: "Outerwear" },
+    { id: 34, imgURL: "/images/o01.jpg", title: "Leather Biker Jacket", description: "Classic biker style with durable leather", category: "Outerwear" },
+    { id: 35, imgURL: "/images/o01.jpg", title: "Suede Leather Jacket", description: "Soft suede texture with a premium finish", category: "Outerwear" },
+    { id: 36, imgURL: "/images/o01.jpg", title: "Faux Leather Jacket", description: "Sleek and stylish cruelty-free alternative", category: "Outerwear" },
 
     // Footwear
     { id: 37, imgURL: "/images/f01.jpg", title: "Sneakers", description: "Casual everyday wear", category: "Footwear" },
