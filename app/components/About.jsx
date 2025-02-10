@@ -3,13 +3,13 @@ const About = ({ info, background = [] }) => {
         <div className="h-screen w-full relative overflow-hidden flex items-center" data-aos="fade-up">
 
             {/* Image Container: Stretched from top to bottom */}
-            <div className="absolute top-0 left-0 h-screen w-full flex">
+            <div className="absolute top-0 left-0 h-screen w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                 {background?.map((item, index) => (
                     <img
                         key={index}
                         src={item.imgURL}
                         alt=""
-                        className="h-screen w-1/5 object-cover"
+                        className="h-screen w-full object-cover"
                     />
                 ))}
             </div>

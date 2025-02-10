@@ -7,8 +7,24 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-    color: white !important;
+/* Change arrow color */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: darkslategrey !important; /* Change this to your preferred color */
+    font-size: 2rem; /* Default size */
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 1rem; /* Smaller size on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 0.5rem; /* Even smaller on mobile */
+    }
+}

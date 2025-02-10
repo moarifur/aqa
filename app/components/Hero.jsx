@@ -33,10 +33,10 @@ const Hero = () => {
                             />
                             <div
                                 className="absolute top-52 left-0 h-full w-full flex flex-col justify-center items-center text-white px-4">
-                                <h1 className="text-yellow-100 text-7xl font-raleway font-bold leading-tight mb-0 text-center p-5">
+                                <h1 className="text-yellow-100 text-4xl md:text-7xl font-raleway font-bold leading-tight mb-0 text-center p-5">
                                     {item.title}
                                 </h1>
-                                <p className="text-4xl text-cyan-100 font-sans font-medium leading-loose mb-2">
+                                <p className="text-lg md:text-4xl text-cyan-100 font-sans font-medium leading-loose mb-2">
                                     {item.subtitle}
                                 </p>
                             </div>
@@ -45,14 +45,8 @@ const Hero = () => {
                 ))}
             </Swiper>
             {/* Navigation Buttons */}
-            <button
-                className="swiper-button-prev absolute top-1/2 left-5 transform -translate-y-1/2 z-10 text-gray-400 text-3xl">
-                &#10094;
-            </button>
-            <button
-                className="swiper-button-next absolute top-1/2 right-5 transform -translate-y-1/2 z-10 text-gray-400 text-3xl">
-                &#10095;
-            </button>
+            <div className="swiper-button-prev"></div>
+            <div className="swiper-button-next"></div>
         </div>
     );
 };

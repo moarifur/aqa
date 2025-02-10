@@ -12,15 +12,15 @@ const Footer = () => {
                 <div className="w-full md:w-[60%] flex flex-col gap-4">
                     {/* Logo & name in one row */}
                     <div className="flex items-center gap-3">
-                        <img src={footer_info.logo} alt={footer_info.name} className="h-12 w-auto"/>
-                        <h1 className="text-4xl font-bold">{footer_info.name}</h1>
+                        <img src={footer_info.logo} alt={footer_info.name} className="h-10 md:h-16 w-auto"/>
+                        <h1 className="text-2xl md:text-4xl font-bold">{footer_info.name}</h1>
                     </div>
                     {/* Description */}
-                    <p className="text-gray-600 mt-3">{footer_info.description}</p>
+                    <p className="text-gray-600 mt-3 mb-16 md:mb-0">{footer_info.description}</p>
                 </div>
 
                 {/* Right Section (40% width) */}
-                <div className="w-full md:w-[40%]">
+                <div className="w-full md:w-[40%] md:px-12">
                     {/* Address & Contact Info */}
                     <div className="flex flex-col gap-3">
                         <div className="flex items-start gap-2 text-neutral-600 text-sm cursor-pointer hover:text-yellow-600">

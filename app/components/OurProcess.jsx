@@ -4,13 +4,13 @@ const OurProcess = ({ info, background = [] }) => {
             <div className="h-screen w-full relative overflow-hidden flex items-center" data-aos="fade-up">
 
                 {/* Image Container: Stretched from top to bottom */}
-                <div className="absolute top-0 left-0 h-screen w-full flex">
+                <div className="absolute top-0 left-0 h-screen w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                     {background?.map((item, index) => (
                         <img
                             key={index}
                             src={item.imgURL} // Absolute path from the data
                             alt=""
-                            className="h-screen w-1/5 object-cover"
+                            className="h-screen w-full object-cover"
                         />
                     ))}
                 </div>
@@ -20,7 +20,7 @@ const OurProcess = ({ info, background = [] }) => {
 
                 {/* Text Content */}
                 <div
-                    className="absolute left-10 top-[65%] transform -translate-y-1/2 w-full font-sans font-light text-white">
+                    className="absolute left-10 top-[65%] pr-10 transform -translate-y-1/2 w-full font-sans font-light text-white">
                     <h1 className="text-7xl leading-tight mb-5">{info.title}</h1>
                     <p className="text-2xl mb-5 font-thin">{info.subtitle}</p>
                     <a

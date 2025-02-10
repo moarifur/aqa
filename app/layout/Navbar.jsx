@@ -37,17 +37,10 @@ const navLinks = [
 const Navbar = () => {
 
     const [open, setOpen] = useState(false) // State for Mobile Menu
-
-    // Handle Mobile Menu
-    const handleMenu =() =>{
-        setOpen(prev => !prev)
-        console.log(open)
-    }
+    const handleMenu =() => setOpen(prev => !prev) // Handle Mobile Menu
 
     return (
-        <div
-            className={`bg-white w-full fixed top-0 left-0 z-10 shadow-md transition-all duration-300`}
-        >
+        <div className={`bg-white w-full fixed top-0 left-0 z-10 shadow-md transition-all duration-300`}>
             <div className="mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo Section */}
@@ -62,9 +55,7 @@ const Navbar = () => {
                             <div className="flex ml-0 items-baseline space-x-1 text-lg">
                                 {navLinks.map((link, index) => (
                                     <a key={index}
-                                       className='
-                               text-[#5f5f5f] hover:text-[#A7D378] transition-all
-                               duration-500 px-3 py-2 rounded-md text-md font-serif'
+                                       className='text-[#5f5f5f] hover:text-[#A7D378] transition-all duration-500 px-1 lg:px-3 rounded-md text-sm lg:text-md font-serif'
                                        href={link.link}
                                     >
                                         {link.title}
@@ -74,7 +65,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/* Company Name */}
-                    <p className='text-xl md:text-4xl font-raleway ml-auto mr-auto'>{/* Centered text */}
+                    <p className='text-md lg:text-4xl font-raleway ml-auto mr-auto'>{/* Centered text */}
                         Assurance Quality Apparels
                     </p>
                     {/* Hamburger Button */}
@@ -82,11 +73,7 @@ const Navbar = () => {
                         <button
                             type='button'
                             onClick={handleMenu}
-                            className='
-                    inline-flex items-center justify-center p-2 rounded-md
-                    text-gray-400 hover:text-white hover:bg-gray-700
-                    focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-offset-gray-800 focus:ring-white'
+                            className='inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'
                         >
                             <span className='sr-only'>Open Main Menu</span>
                             {open === true ? <FaTimes/> : <FaBars/>}
