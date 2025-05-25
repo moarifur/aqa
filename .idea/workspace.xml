@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d669c19-8d1e-450b-a599-632af8dbaa10" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aqa.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/OurProcess.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/OurProcess.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Product.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +56,7 @@
       <workItem from="1739019610375" duration="186000" />
       <workItem from="1739082725879" duration="392000" />
       <workItem from="1739085184384" duration="1983000" />
-      <workItem from="1739172570594" duration="7662000" />
+      <workItem from="1739172570594" duration="10877000" />
     </task>
     <servers />
   </component>
