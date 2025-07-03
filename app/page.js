@@ -1,7 +1,8 @@
 import HomePage from "@/app/home/Home";
 
 const Page = () => {
-    return <HomePage />
+    // <HomePage />
+    return "Wad Up!!"
 };
 
 export default Page;
